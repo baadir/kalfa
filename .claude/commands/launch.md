@@ -128,3 +128,8 @@ Oluşturulma: [tarih]
 ```
 
 Planın özetini çıktıla ve kullanıcıya ilk neyin uygulanacağını sor.
+
+---
+
+📋 **Task'ları kanban board'a eklemek ister misin?**
+`/kanban-push` komutunu çalıştır → task'lar otomatik yüklenir, board açılır.

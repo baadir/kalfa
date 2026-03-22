@@ -146,3 +146,8 @@ Not: Bunlar kaba tahminlerdir, taahhüt değil.
 ```
 
 Bir özet çıkar ve çalışma başlamadan önce yanıt bekleyen açık soruları işaretle.
+
+---
+
+📋 **Task'ları kanban board'a eklemek ister misin?**
+`/kanban-push` komutunu çalıştır → task'lar otomatik yüklenir, board açılır.

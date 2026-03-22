@@ -41,6 +41,7 @@ Tüm sistem komutları, tetikleyicileri, gerekli araçları ve çalıştırma mo
 | Komut | Tetikleyici | Araçlar | Mod | Açıklama |
 |-------|-------------|---------|-----|----------|
 | `/brief [fikir]` | Yeni proje başlatırken | Read, Write, Edit, Agent, Glob, Bash(date) | Doğrudan çalıştır | Ham fikri yapılandırılmış proje özetine dönüştür |
+| `/kanban-push [dosya]` | Planlama tamamlandıktan sonra | Read, Bash(curl,uname,start,open,xdg-open) | Doğrudan çalıştır | Plan dosyasındaki task'ları kanban board'a toplu yükle, browser aç |
 | `/launch [ürün]` | Ürün/özellik lansmanına hazırlanırken | Read, Write, Edit, Agent, Glob, Grep, WebSearch, WebFetch, Bash(date) | Doğrudan çalıştır | Tam lansman hattı — rekabet taramasından pazara giriş kontrol listesine |
 | `/proposal [proje]` | Müşteri teklif istediğinde | Read, Write, Edit, Agent, Glob, Bash(date) | Doğrudan çalıştır | Kapsam ve fiyatlandırma ile yapılandırılmış müşteri teklifi oluştur |
 | `/competitive-intel [pazar]` | Yeni pazara girerken veya konumu değerlendirirken | Read, Write, Edit, Agent, Glob, WebSearch, WebFetch, Bash(date) | Doğrudan çalıştır | Stratejik önerilerle derin rekabet analizi |
